@@ -174,11 +174,17 @@ h2 {
     font-weight: 700;
     margin-bottom: 0.5rem;
     letter-spacing: -1px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .stat-label {
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+.stat-number.done {
+    transform: scale(1.1);
+    opacity: 1;
 }
 
 .card-grid {
